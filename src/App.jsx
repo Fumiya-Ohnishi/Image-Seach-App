@@ -2,7 +2,7 @@ import { useState } from "react"
 import axios from "axios"
 import Title from "./components/Title"
 import Form from "./components/Form"
-import "./App.css"
+import "./App.scss"
 import Results from "./components/Results"
 import("https://fonts.googleapis.com/css2?family=Caveat&display=swap")
 

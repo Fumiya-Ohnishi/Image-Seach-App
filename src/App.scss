@@ -8,6 +8,24 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  a {
+    text-decoration: none;
+    color: #170ced;
+    border-bottom: solid 1px #170ced;
+  }
+}
+
+input {
+  padding: 5px;
+}
+
 .btn,
 a.btn,
 button.btn {
@@ -70,23 +88,4 @@ img {
   gap: 3.2rem;
   width: 80%;
   margin: 120px auto;
-}
-
-h1 {
-  font-family: "Caveat", cursive;
-  font-size: 3.6rem;
-}
-
-p {
-  font-size: 1.6rem;
-}
-
-p a {
-  text-decoration: none;
-  color: #170ced;
-  border-bottom: solid 1px #170ced;
-}
-
-input {
-  padding: 5px;
 }
