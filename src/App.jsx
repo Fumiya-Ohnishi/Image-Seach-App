@@ -4,6 +4,7 @@ import Title from "./components/Title"
 import Form from "./components/Form"
 import "./App.css"
 import Results from "./components/Results"
+import("https://fonts.googleapis.com/css2?family=Caveat&display=swap")
 
 function App() {
   const [word, setWord] = useState("")
@@ -13,7 +14,9 @@ function App() {
     e.preventDefault()
     axios
       .get(
-        `https://api.unsplash.com/search/photos?query=${word}&client_id=${import.meta.env.VITE_UNSPLASH_API_KEY}`
+        `https://api.unsplash.com/search/photos?query=${word}&client_id=${
+          import.meta.env.VITE_UNSPLASH_API_KEY
+        }`
       )
       .then((res) => {
         setPhoto(res.data.results)
